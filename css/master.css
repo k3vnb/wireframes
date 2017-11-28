@@ -1,0 +1,93 @@
+* {
+  box-sizing:border-box;
+  padding: 0;
+  margin: 0;
+}
+*:not(body):not(html):not(.world):not(.sidekicks):not(.sub-base):not(.side-base):not(.minions):not(.shit-layer):not(.good-layer) {
+  border:1px dashed #000;
+}
+
+.world {
+  padding: 50px 25px;
+  background-color: lightgrey;
+  width: 100%;
+  height: 100%;
+}
+
+.good-layer {
+  width: 100%;
+  min-height: 120px;
+  text-align: center;
+  padding: 5% 0% 8%;
+}
+
+.good-layer div {
+  display: inline-block;
+}
+
+.hero {
+  width: 60%;
+  min-height: 100px;
+  margin-right: 10px;
+}
+.sidekicks {
+  width: 30%;
+  min-height: 100px;
+}
+.sidekick-one, .sidekick-two{
+  width: 100%;
+  height: 48px;
+}
+
+.sidekick-one, .sidekick-two, .hero, .minion-one, .minion-two, .villian, .henchmen, .h-minion-one, .h-minion-two {
+  background-color: black;
+}
+
+.shit-layer {
+  width: 100%;
+  padding: 5% 0% 8%;
+  text-align: center;
+}
+
+.shit-layer div {
+  display: inline-block;
+}
+
+.sub-base {
+  width: 50%;
+  min-height: 120px;
+}
+
+.side-base {
+  width: 40%;
+  min-height: 170px;
+}
+
+.villian {
+  min-height: 85px;
+  width: 100%;
+}
+
+.minion-one, .minion-two {
+  min-height: 85px;
+  width: 49.5%;
+}
+
+.henchmen {
+  min-height: 85px;
+  width: 100%;
+}
+
+.h-minion-one, .h-minion-two {
+  min-height: 40px;
+  width: 100%;
+}
+
+.minions {
+  text-align: center;
+  width: 100%;
+}
+
+.minions div {
+  display: inline-block;
+}
