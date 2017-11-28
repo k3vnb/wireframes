@@ -1,0 +1,74 @@
+* {
+  box-sizing:border-box;
+  padding: 0;
+  margin: 0;
+}
+*:not(body):not(html):not(.space){
+  border:1px dashed #000;
+}
+
+.space {
+  background-color: lightgrey;
+  height: 100vh;
+  padding: 25px 20px 50px 20px;
+}
+
+.top-half {
+  margin-bottom: 6vh;
+}
+
+.space-dock1 {
+  height: 8vh;
+}
+
+.ship-port1, .ship-port2, .ship-port3 {
+  width: 100%;
+  text-align: center;
+  padding: 25px;
+  display: inline-block;
+}
+
+.ship {
+  margin: 5px;
+  width: 26%;
+  height: 100px;
+  display: inline-block;
+}
+.bottom-half div{
+  display: inline-block;
+}
+
+.colony-left {
+  width: 55%;
+  float: left;
+}
+.colony-right {
+  width: 30%;
+  float: right;
+}
+
+.colony-right div {
+  display: block;
+}
+
+.colony-left .ship {
+  width: 44%;
+}
+
+.colony-right .ship {
+  width: 96%;
+}
+.space-dock2 {
+  height: 8vh;
+}
+.space-dock3 {
+  height: 8vh;
+}
+
+.ship-port2, .ship-port3 {
+  min-height: 32vh;
+}
+
+.ship-port3 .ship {
+  margin-top: 8%;
+}
