@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
 }
-*:not(body):not(html):not(.world):not(.sidekicks):not(.sub-base):not(.side-base):not(.minions):not(.shit-layer):not(.good-layer):not(.mini-minion):not(.h-minion-one, .h-minion-two) {
+*:not(body):not(html):not(.world):not(.sidekicks):not(.minions):not(.v-one-henchmen):not(.v-two-henchmen):not(.shiv-layer):not(.villians):not(.good-layer) {
   border:1px dashed #000;
 }
 
@@ -34,69 +34,48 @@
   height: 400px;
 }
 .sidekick-one, .sidekick-two{
-  width: 99%;
+  width: 98%;
   height: 50%;
 }
 
-.sidekick-one, .sidekick-two, .hero, .minion-one, .minion-two, .villian, .henchmen, .mini-minion {
+.sidekick-one, .sidekick-two, .hero, .villian-one, .villian-two, .v-one-minion-one, .v-two-minion-one, .v-one-minion-two, .v-two-minion-two {
   background-color: black;
 }
 
-.shit-layer {
+.shiv-layer, .minions {
   width: 100%;
+  text-align: center;
   padding: 5% 0% 8%;
+}
+.villians {
   text-align: center;
+  width: 100%;
 }
-
-.shit-layer div {
+.villians div {
   display: inline-block;
+  height: 25vh;
 }
-
-.sub-base {
-  margin-right: 10px;
+.villian-one, .v-one-henchmen {
   width: 50%;
-  min-height: 120px;
-  padding-right: 4%;
+  margin-right: 6%;
+}
+.villian-two, .v-two-henchmen{
+  width: 35%;
 }
 
-.side-base {
-  width: 40%;
-}
-
-.villian {
-  height: 325px;
-  width: 100%;
-}
-
-.minion-one, .minion-two {
-  height: 300px;
-  width: 49.5%;
-}
-
-.henchmen {
-  height: 324px;
-  width: 100%;
-}
-
-.h-minion-one, .h-minion-two {
-  /*height: 149px;*/
-  width: 100%;
-}
-
-.h-minion-one {
-  padding: 4% 0;
-}
-
-.minions {
-  text-align: center;
-  width: 100%;
-}
-
-.minions div {
+.v-one-henchmen, .v-two-henchmen {
   display: inline-block;
 }
 
-.mini-minion {
-  width: 100%;
-  height: 134.3px;
+.v-one-minion-one, .v-one-minion-two {
+  width: 49%;
+  display: inline-block;
+  height: 25vh;
+}
+
+.v-two-minion-one, .v-two-minion-two {
+  height: 11vh;
+}
+.v-two-minion-one {
+  margin-bottom: 6%;
 }
